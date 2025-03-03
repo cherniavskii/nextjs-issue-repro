@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import * as React from 'react';
-import { DataGrid } from '@mui/x-data-grid';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import * as React from "react";
+import { NoSsr } from "@mui/material";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -16,9 +16,9 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <div style={{ width: 800, height: 600 }}>
-          <DataGrid rows={[]} columns={[]} />
-        </div>
+        <NoSsr>
+          <div>test</div>
+        </NoSsr>
       </main>
 
       <style jsx>{`
