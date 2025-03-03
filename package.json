@@ -16,6 +16,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
+  "resolutions": {
+    "@mui/utils": "next"
+  },
   "engines": {
     "node": ">=18"
   }
